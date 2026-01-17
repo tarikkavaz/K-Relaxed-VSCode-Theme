@@ -1,0 +1,24 @@
+{
+    "name": "k-relaxed",
+    "displayName": ".K Relaxed",
+    "description": "Relaxed dark VSCode theme",
+    "version": "1.0.0",
+    "publisher": "tarikkavaz",
+    "repository": "https://github.com/tarikkavaz/K-Relaxed-VSCode-Theme.git",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": ".K Relaxed",
+                "uiTheme": "vs-dark",
+                "path": "./themes/K-Relaxed.json"
+            }
+        ]
+    }
+}
